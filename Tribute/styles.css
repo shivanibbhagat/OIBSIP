@@ -1,0 +1,131 @@
+body {
+    font-family: "Poppins";
+    text-align: center;
+    background-color:#DDD0C8;
+    margin: 0 80px;
+    color:#A7A1AE;
+  }
+  
+.container1 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.box1 {
+    color: #323232;
+    flex-basis: calc(50% - 20px);
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #323232;
+    font-size: 3.2rem;
+  }
+
+  h2 {
+    color: #323232;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    color: #323232;
+    font-size: 2rem;
+    margin: 50px 0;
+  }
+
+  h4 {
+    color: #323232;
+    margin-top: -10px;
+  }
+  
+  p {
+    color: #323232;
+    line-height: 1.7;
+    font-size: 1.2rem;
+    margin: 50px 0;
+  }
+  
+  ul {
+    text-align: left;
+    line-height: 1.7;
+    font-size: 1.2rem;
+    color: #323232;
+    margin-left: 260px;
+  }
+  
+  img {
+    border-radius: 50%;
+  }
+  
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+  
+.title {
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+.container {
+    text-align: left;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    display: table;
+    padding: 0 0 0 0;
+    background-color: #f0f0f0;
+  }
+
+.container th h1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #323232;
+  }
+  
+.container td {
+    font-weight: normal;
+    font-size: 1em;
+    -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+    -moz-box-shadow: 0 2px 2px -2px #0E1119;
+    box-shadow: 0 2px 2px -2px #0E1119;
+    color: #323232;
+  }
+  
+.container td, .container th {
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left:1%;
+  }
+
+.container th {
+    background-color: rgb(231, 151, 151);
+  }
+  
+ .quote {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(231, 151, 151);
+    color: #fff;
+}
+  
